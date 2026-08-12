@@ -1,0 +1,13 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --TEXT-INPUT-FIELD: #F7F7F7;
+    --rojo: #E5252E;
+    --sm: 14PX;
+    --md:16px;
+    --lg:18px;
+}
+body{
+    margin: 0;;
+}
