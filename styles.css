@@ -163,6 +163,23 @@ input {
     color: var(--rojo);
     transition: 0.4s;
 }
+.button-edit {
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid;       
+    color: var(--rojo);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+
+.button-edit:hover {
+    background-color: var(--rojo);
+    color: var(--white);
+    transition: 0.4s;
+}
 
 @media (max-width: 640px) {
     .logo {
