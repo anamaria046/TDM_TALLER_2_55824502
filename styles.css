@@ -7,9 +7,11 @@
     --sm: 14PX;
     --md:16px;
     --lg:18px;
+
 }
 body{
-    margin: 0;;
+    margin: 0;
+    font-family:Quicksand,sans-serif;
 }
 
 .login {
@@ -29,6 +31,32 @@ body{
     justify-self: center;
     display: none;
 }
+.circle {
+    background-color: var(--TEXT-INPUT-FIELD);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+.email-icon{
+    width: 100px;
+    height: 100px;
+}
+.resend{
+    color: var(--rojo);
+    cursor: pointer;
+    font-weight: 450;
+    
+}
+.no_email {
+    color: var(--very-light-pink);
+    font-weight: bold;
+}
+
 .title {
     font-size: var(--lg);
     margin-bottom: 12px;
