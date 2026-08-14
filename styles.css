@@ -69,6 +69,7 @@ body {
 .bold {
     color: var(--very-light-pink);
     font-weight: bold;
+    text-align: center;
 }
 
 .title {
