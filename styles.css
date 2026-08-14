@@ -140,7 +140,28 @@ input {
 .button-sign-up:hover {
     background-color: var(--rojo);
     color: var(--white);
-    transition: 0,4s;
+    transition: 0.4s;
+}
+
+.account {
+    text-align: center;
+}
+.button-create {
+    background-color: var(--rojo);
+    border-radius: 8px;
+    border: 1px solid;       
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+
+.button-create:hover {
+    background-color: var(--white);
+    color: var(--rojo);
+    transition: 0.4s;
 }
 
 @media (max-width: 640px) {
